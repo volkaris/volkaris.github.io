@@ -5,7 +5,7 @@ let loc = locationArr.at(-1)
 if (loc === "index.html") {
     let homeBtn = document.getElementById("home")
     homeBtn.classList.add("active")
-} else if (loc === "search.html") {
+} else if (loc === "constructor.html") {
     let searchBtn = document.getElementById("search")
     searchBtn.classList.add("active")
 } else if (loc === "addToCart.html") {
