@@ -12,3 +12,7 @@ if (loc === "index.html") {
     let addToCartBtn = document.getElementById("shopping-bag");
     addToCartBtn.classList.add("active")
 }
+else if (loc === "review.html") {
+    let reviewBtn = document.getElementById("reviews");
+    reviewBtn.classList.add("active")
+}
